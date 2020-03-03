@@ -1,0 +1,19 @@
+<wpml-config>
+<admin-texts>
+<key name="theme_mods_fashstore">
+    <key name="accesspress_ticker_title" />
+    <key name="accesspress_ticker_text1" />
+    <key name="accesspress_ticker_text2" />
+    <key name="accesspress_ticker_text3" />
+    <key name="accesspress_ticker_text4" />
+    <key name="accesspress_store_copyright" />
+    <key name="slider1_button_text" />
+    <key name="slider2_button_text" />
+    <key name="slider3_button_text" />
+    <key name="slider4_button_text" />
+    <key name="slider5_button_text" />
+    <key name="woocommerce_demo_store_notice" />
+    <key name="woocommerce_checkout_privacy_policy_text" />
+</key>
+</admin-texts>
+</wpml-config>

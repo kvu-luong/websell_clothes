@@ -1,0 +1,119 @@
+.btn.promo-link-btn:hover {
+    color: #fff;
+    border-color: #b50141;
+}
+@media (max-width: 1174px) and (min-width: 480px){
+	#ap-cta-video .cta-video .cta-wrap-left,
+	#ap-cta-video .cta-video .cta-wrap-right {
+    width: 100%;
+	}
+	#ap-cta-video .cta-video .cta-wrap-right .cta-title.main-title{
+		text-align: center;		
+	}
+	#ap-cta-video .cta-video .cta-wrap-right .cta-desc{
+		text-align: center;
+	}
+	.cta-video {
+    text-align: center;
+	}
+	.promo-wrap2 .promo-image .caption {
+    top: 0;
+    }
+    .style_one .promo-desc-title {    
+    margin-top: 50px;
+    }
+    .promo-product1 aside:first-child .caption {
+    left: 50%;
+    }
+}
+
+@media (max-width: 1174px){
+   .promo-wrap1 .widget_accesspress_storemo {
+    margin-left: 10px;
+    margin-right: 0px;
+} 
+}
+@media (max-width: 880px) and (min-width: 480px){
+	.promo-product1 .promo-image {
+    margin: 0px;
+    background: #000000;
+	}
+	.promo-product1 aside .caption {
+    left: 0;
+    right: auto;
+    bottom: 0;
+    top: 0;
+    position: relative;
+    float: left;
+    opacity: 1;
+	}
+	.promo-product1 aside:nth-first-child(1) .caption {
+	float: right;
+	}
+	.promo-wrap2 .promo-image .caption {
+    top: 0;
+    }
+    .style_one .promo-desc-title {    
+    margin-top: 20px;    
+    }
+    .promo-product1 aside:last-child .caption {    
+    left: 50%;
+	}
+	.style_one .promo-desc {
+    margin-bottom: 20px;
+	}
+	.style_one .promo-link-btn {    
+    font-size: 14px;
+    }
+    .caption-read-more1{
+    padding: 10px 20px;
+    }
+}
+@media (max-width: 880px) and (min-width: 650px){
+	.style_one .promo-link-btn {
+    line-height: 30px;
+   }
+}
+@media (max-width: 649px) and (min-width: 480px){
+.style_one .promo-link-btn {
+	line-height: 25px;
+}
+}    
+@media (max-width: 780px){
+	.caption-content-wrapper {
+    margin-top: 0;
+	}
+	.caption-read-more1{
+		margin-top: 10px;
+	}
+	.promo-wrap2 .promo-image .caption {    
+    width: 100%;
+    left: 0px;
+	}
+}
+@media (max-width: 688px){
+	.caption-read-more1 {
+    display: inline-block;
+	}
+	.main-navigation ul > li {
+    display: block;
+    }
+    #site-navigation li a {
+    color: #ffffff;
+	}
+	.style_one .promo-desc-title, .style_one .promo-desc {
+    font-size: 13px;
+	}
+	.style_one .promo-desc-title {
+    margin-bottom: 0;
+    }
+    #site-navigation .menu>li>a {
+    color: #fff;
+}
+}
+@media (max-width: 500px){
+.promo-product1 aside:last-child div.promo-desc {    
+    margin-top: 50px;
+}
+
+}

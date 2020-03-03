@@ -1,0 +1,64 @@
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.container-fluid{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+html body, html {
+    font-family: "Open Sans";
+    color: #616161;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* --------- HEADER -----------------*/
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .top-left{
+        display: flex;
+    }
+
+    .login{
+        position: relative;
+    }
+    .bookmark-number{
+        position: absolute;
+        top: -4px;
+        right: 0;
+        font-weight: bold;
+        background-color: #31262652;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        color: #ede8ef;
+        text-align: center;
+    }
+}
+
+.menu-header{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: bold;
+
+    .menu-header__item {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 30px;
+        display: flex;
+    }
+    .icon-custom {
+        transform: rotate(90deg);
+        margin-left: -4px;
+    }
+    
+    
+}
+
+/*---------- end header -------------*/
