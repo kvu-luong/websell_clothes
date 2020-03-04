@@ -7,6 +7,10 @@
         <link rel="stylesheet" type="text/css" href="/normalize.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/slick-theme.css"/>
+        <link href="/css/fontawesome.css" rel="stylesheet">
+        <link href="/css/regular.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/style.css"/>
     </head>
     <body>
@@ -54,9 +58,98 @@
         // ─── SLIDER ──────────────────────────────────────────────────────
         //
         -->
-            <div class="slider container">
-                <div class="slider-main"></div>
-                <div class="slider-sub"></div>
+            <div class="slider js-slider container">
+                <div class="slider-block">
+                    <div class="slider-main">
+                        <div class="slider-image">
+                            <div class="slider-contain">
+                                <div><h5>Travel</h5></div>
+                                <div><h4>Who else stories are made</h4></div>
+                                <div class="slider-contain__footer">
+                                    <div class="slider-contain__footer-item">Gillon</div>
+                                    <div class="slider-contain__footer-item">3 years ago</div>
+                                    <div class="slider-contain__footer-item"><i class="far fa-bookmark"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-sub">
+                        <div class="slider-sub__block">
+                            <div class="slider-sub__item">
+                                <div class="over"></div>
+                                <div class="item-cotain">
+                                <div><h5>Travel</h5></div>
+                                    <div><h4>Who else stories are made</h4></div>
+                                    <div class="slider-contain__footer">
+                                        <div class="slider-contain__footer-item">Gillon</div>
+                                        <div class="slider-contain__footer-item">3 years ago</div>
+                                        <div class="slider-contain__footer-item"><i class="far fa-bookmark"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-sub__block">
+                            <div class="slider-sub__item">
+                                <div class="over"></div>
+                                <div class="item-cotain">
+                                <div><h5>Travel</h5></div>
+                                    <div><h4>Who else stories are made</h4></div>
+                                    <div class="slider-contain__footer">
+                                        <div class="slider-contain__footer-item">Gillon</div>
+                                        <div class="slider-contain__footer-item">3 years ago</div>
+                                        <div class="slider-contain__footer-item"><i class="far fa-bookmark"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-block">
+                    <div class="slider-main">
+                        <div class="slider-image">
+                            <div class="slider-contain">
+                                <div><h5>Travel</h5></div>
+                                <div><h4>Who else stories are made</h4></div>
+                                <div class="slider-contain__footer">
+                                    <div class="slider-contain__footer-item">Gillon</div>
+                                    <div class="slider-contain__footer-item">3 years ago</div>
+                                    <div class="slider-contain__footer-item"><i class="far fa-bookmark"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-sub">
+                        <div class="slider-sub__block">
+                            <div class="slider-sub__item">
+                                <div class="over"></div>
+                                <div class="item-cotain">
+                                <div><h5>Travel</h5></div>
+                                    <div><h4>Who else stories are made</h4></div>
+                                    <div class="slider-contain__footer">
+                                        <div class="slider-contain__footer-item">Gillon</div>
+                                        <div class="slider-contain__footer-item">3 years ago</div>
+                                        <div class="slider-contain__footer-item"><i class="far fa-bookmark"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-sub__block">
+                            <div class="slider-sub__item">
+                                <div class="over"></div>
+                                <div class="item-cotain">
+                                <div><h5>Travel</h5></div>
+                                    <div><h4>Who else stories are made</h4></div>
+                                    <div class="slider-contain__footer">
+                                        <div class="slider-contain__footer-item">Gillon</div>
+                                        <div class="slider-contain__footer-item">3 years ago</div>
+                                        <div class="slider-contain__footer-item"><i class="far fa-bookmark"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
@@ -370,8 +463,9 @@
         // ─── SCRIPT ─────────────────────────────────────────────────────────────────────
         //
         -->
-            <script src="/jquery.js"></script>
-            <script src="/script.js"></script>
+            <script type="text/javascript" src="/jquery.js"></script>
+            <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+            <script type="text/javascript" src="/script.js"></script>
 
     </body>
     </html>

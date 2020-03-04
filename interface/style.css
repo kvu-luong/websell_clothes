@@ -60,5 +60,104 @@ html body, html {
 }
 
 /*---------- end header -------------*/
+/*---------- slider -------------*/
+.slider {
+  padding-top: 50px;
+}
+
+.slider-main {
+  height: 500px;
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-image: url("https://cdn.gillion.shufflehound.com/wp-content/uploads/sites/5/2017/01/Untitled-1_0006_andrew-neel-218073-1024x683.jpg");
+}
+
+.slider-sub {
+  height: 500px;
+  width: 30%;
+}
+
+.slider-image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to bottom, rgba(50, 50, 50, 0) 0%, rgba(16, 15, 15, 0.91) 89%, rgba(16, 15, 15, 0.93) 93%) !important;
+  opacity: 0.93;
+  border-radius: 10px;
+}
+.slider-image h5 {
+  margin: 0;
+  font-size: 30px;
+  color: #d7b914;
+}
+.slider-image .slider-contain {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding-left: 10px;
+}
+.slider-image h4 {
+  margin-bottom: 18px;
+  line-height: 100% !important;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.slider-image .slider-contain__footer {
+  display: flex;
+}
+.slider-image .slider-contain__footer-item {
+  margin-right: 10px;
+}
+
+.slider-block {
+  display: flex !important;
+  width: 100%;
+}
+
+.slider-sub__block {
+  height: 50%;
+}
+
+.slider-sub__block {
+  height: calc(50% - 10px);
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+
+.slider-sub__block:last-child {
+  padding-top: 10px;
+}
+
+.slider-sub__item {
+  height: 100%;
+  background-image: url("https://cdn.gillion.shufflehound.com/wp-content/uploads/sites/5/2017/01/Untitled-1_0001_andrew-neel-296630-1024x683.jpg");
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+}
+.slider-sub__item .over {
+  background: linear-gradient(to bottom, rgba(50, 50, 50, 0) 0%, rgba(16, 15, 15, 0.91) 89%, rgba(16, 15, 15, 0.93) 93%) !important;
+  opacity: 0.93;
+  height: 100%;
+  border-radius: 10px;
+}
+.slider-sub__item .item-cotain {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.slick-prev {
+  left: 0;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 0;
+}
+
+/*---------- end slider -------------*/
 
 /*# sourceMappingURL=style.css.map */
