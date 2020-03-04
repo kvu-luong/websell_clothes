@@ -58,6 +58,7 @@
         // ─── SLIDER ──────────────────────────────────────────────────────
         //
         -->
+        <div style="height: 500px">
             <div class="slider js-slider container">
                 <div class="slider-block">
                     <div class="slider-main">
@@ -151,7 +152,7 @@
                     </div>
                 </div>
             </div>
-
+</div>
 
         <!--
         // ─── POPULAR ────────────────────────────────────────────────────────────────────

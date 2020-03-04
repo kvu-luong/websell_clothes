@@ -64,6 +64,7 @@ html body, html {
 .slider{
     // display: flex;
     padding-top: 50px;
+    visibility: hidden;
 }
 .slider-main{
     height: 500px;
@@ -151,5 +152,6 @@ html body, html {
 .slick-next{
     right: 0;
 }
+.slick-initialized { visibility: visible; }
 
 /*---------- end slider -------------*/
